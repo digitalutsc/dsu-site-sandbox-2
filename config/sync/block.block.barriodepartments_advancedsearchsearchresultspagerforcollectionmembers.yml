@@ -1,0 +1,40 @@
+uuid: 9cfd7319-2ca6-4b49-a74f-29f0569aa227
+langcode: en
+status: true
+dependencies:
+  module:
+    - advanced_search
+    - context
+  theme:
+    - barriodepartments
+id: barriodepartments_advancedsearchsearchresultspagerforcollectionmembers
+theme: barriodepartments
+region: content
+weight: -11
+provider: null
+plugin: 'advanced_search_result_pager:advanced_search__block_1'
+settings:
+  id: 'advanced_search_result_pager:advanced_search__block_1'
+  label: 'Advanced Search: Search Results Pager for Collection Members'
+  label_display: '0'
+  provider: advanced_search
+visibility:
+  context_all:
+    id: context_all
+    negate: null
+    values: collection
+  context:
+    id: context
+    negate: null
+    values: ''
+  user_status:
+    id: user_status
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    user_status:
+      viewing_profile: '0'
+      logged_viewing_profile: '0'
+      own_page_true: '0'
+      field_value: '0'
+    user_fields: uid

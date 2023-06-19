@@ -1,0 +1,20 @@
+uuid: 60bd8117-b5a5-4780-b6c3-a16aede9867a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - barriodepartments
+id: barriodepartments_primary_local_tasks
+theme: barriodepartments
+region: content
+weight: -24
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

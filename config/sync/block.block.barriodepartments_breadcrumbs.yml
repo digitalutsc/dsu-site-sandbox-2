@@ -1,0 +1,20 @@
+uuid: 6e0587f0-478d-4aaa-bf0e-fee038044d5c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - barriodepartments
+id: barriodepartments_breadcrumbs
+theme: barriodepartments
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

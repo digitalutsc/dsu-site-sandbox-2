@@ -1,0 +1,25 @@
+uuid: 713e4ff3-667e-46de-871f-3474f67ef9b1
+langcode: en
+status: true
+dependencies:
+  module:
+    - context
+id: logo
+label: logo
+code: |-
+  #logo {
+     width: 100% !important; 
+  }
+media: all
+preprocess: true
+conditions:
+  context_all:
+    id: context_all
+    negate: null
+    values: ''
+  context:
+    id: context
+    negate: null
+    values: ''
+contexts: {  }
+conditions_require_all: true
