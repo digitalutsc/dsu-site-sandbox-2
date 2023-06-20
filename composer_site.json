@@ -26,7 +26,9 @@
         },
         {
             "type": "vcs",
-            "url":  "git@github.com:digitalutsc/dsu_subtheme_barrioDepartments.git"
+            "name": "digitalutsc/dsu_subtheme_barrioDepartments",
+            "url":  "git@github.com:digitalutsc/dsu_subtheme_barrioDepartments.git",
+            "branch": "configsync"
         }
     ],
     "require": {
@@ -40,6 +42,6 @@
         "drupal/google_analytics": "^4.0",
         "islandora_lite/islandora_site_name": "1.0.0-beta1",
         "drupal/structure_sync":"^2.0",
-        "digitalutsc/dsu_subtheme_barrioDepartments": "dev-config_sync"
+        "digitalutsc/dsu_subtheme_barrioDepartments": "dev-configsync"
     }
 }
